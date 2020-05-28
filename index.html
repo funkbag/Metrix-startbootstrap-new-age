@@ -8,10 +8,10 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>New Age - Start Bootstrap Theme</title>
+  <title>The Metrix</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
   <!-- Custom styles for this template -->
-  <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="css/new-age.css" rel="stylesheet">
 
 </head>
 
@@ -33,7 +33,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">The Metrix</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -41,13 +41,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+            <a class="nav-link js-scroll-trigger" href="#about">What About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#features">Features</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
           </li>
         </ul>
       </div>
@@ -59,8 +62,8 @@
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+            <h1 class="mb-5">The Metrix - Combining multiple data-sources of farm-level data to deploy spatial risk indicators on a distributed ledger</h1>
+
           </div>
         </div>
         <div class="col-lg-5 my-auto">
@@ -69,7 +72,13 @@
               <div class="device">
                 <div class="screen">
                   <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                  <img src="img/themetrixsalzburgmap.jpg" class="img-fluid" alt="">
+<!--
+<div id="container-fluid m-0 p-0">
+                  <iframe src="Metrix_map.html"></iframe>
+</div>
+-->
+
                 </div>
                 <div class="button">
                   <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -82,16 +91,27 @@
     </div>
   </header>
 
-  <section class="download bg-primary text-center" id="download">
+  <section class="download bg-primary text-center" id="about">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">Discover what all the buzz is about!</h2>
-          <p>Our app is available on any mobile device! Download now to get started!</p>
-          <div class="badges">
-            <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-            <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-          </div>
+        <div class="col-md-18  mx-auto">
+          <h1 class="section-header text-white">Better understand and manage risks by sharing your data!</h1>
+            <p class="text-white">Advisory services for farms should be based on site-specific data analysis. However, the current reality of data collection at the farm level is
+            that most smallholder farmers do not keep farm records. Supply-chain actors buying products at the farm gate have realized the problem and have started collecting data from sourced farms.
+            However, the lack of farm data availability and interoperability between different actors hinders the planning of supply-chain activities and the delivery of proper farmers’ advisory services.
+            All actors realize the importance of bringing data together blockquote what hinders data sharing is technical and governance issues surrounding data interoperability,
+            data privacy, trust, and competitiveness.</p>
+            <p class="text-white">The Metrix addresses the problem of lack of data interoperability at the supply side of the value chain. It applies data science to collectively provided data
+            to produce smart-metrics for the supply side of the value chain. The Metrix is using a distributed data approach instead of centralized data storage.
+            The advantage of such an approach is that nobody owns the newly calculated risk insights. It is a piece of common knowledge in the shared ledger that is available for all participating network
+            peers and data providers.</p>
+            <p class="text-white">The Metrix is a ‘gentleman’s agreement’ for data sharing among private sector value-chain actors and research for development organizations
+            to produce better insights on value-chain risks. Technically spoken, it uses a blockchain network and encryption to self-enforce the informal agreement
+            and guarantees that nobody can access the data origin. The Metrix joins multi-data-sources with scientific methods to calculate risk-metrics,
+            developed in research projects and provided as algorithms and code to the Metrix blockchain. Risk indicators that are calculated from collectively shared farm data
+            are aggregated on zoomable geographic tiles.</p>
+
+
         </div>
       </div>
     </div>
@@ -99,118 +119,126 @@
 
   <section class="features" id="features">
     <div class="container">
-      <div class="section-heading text-center">
-        <h2>Unlimited Features, Unlimited Fun</h2>
-        <p class="text-muted">Check out what you can do with this app theme!</p>
+      <div class="section-content text-center">
+        <h2>The Metrix blockchain network</h2>
+        <p class="text-muted">Better understand and manage risks in agricultural value chains!</p>
         <hr>
       </div>
-      <div class="row">
-        <div class="col-lg-4 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8 my-auto">
+        <div class="col-lg-12 my-auto">
           <div class="container-fluid">
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-screen-smartphone text-primary"></i>
-                  <h3>Device Mockups</h3>
-                  <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                  <i class="icon-mustache text-primary"></i>
+                  <h3>Share farm data</h3>
+                  <p class="text-muted">A ‘gentleman’s’ trust-based data-sharing agreement underwritten by blockchain technology!</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-camera text-primary"></i>
-                  <h3>Flexible Use</h3>
-                  <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  <i class="icon-calculator text-primary"></i>
+                  <h3>Visualize Risks</h3>
+                  <p class="text-muted">The Metrix delivers improved insights on risks by combining farm data.</p>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-present text-primary"></i>
-                  <h3>Free to Use</h3>
-                  <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                  <i class="icon-cloud-upload text-primary"></i>
+                  <h3>Help maintaining</h3>
+                  <p class="text-muted">Keeping the composite risk indicators in distributed ledger files!</p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="icon-lock-open text-primary"></i>
-                  <h3>Open Source</h3>
-                  <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                  <i class="icon-globe-alt text-primary"></i>
+                  <h3>Understand the Spatial Context</h3>
+                  <p class="text-muted">Spatially located on hierarchical map tiles!</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
   </section>
 
-  <section class="cta">
-    <div class="cta-content">
+  <!-- Contact Section -->
+
+<section class="page-section bg-primary2 text-white"  id="contact">
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
       <div class="container">
-        <h2>Stop waiting.<br>Start building.</h2>
-        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+          <a href="https://ciat.cgiar.org" target="_blank">
+          <img src="img/Alliance_logos-ENGLISH-04.png" alt="CIAT"></a>
       </div>
     </div>
-    <div class="overlay"></div>
-  </section>
-
-  <section class="contact bg-primary" id="contact">
-    <div class="container">
-      <h2>We
-        <i class="fas fa-heart"></i>
-        new friends!</h2>
-      <ul class="list-inline list-social">
-        <li class="list-inline-item social-twitter">
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item social-facebook">
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="list-inline-item social-google-plus">
-          <a href="#">
-            <i class="fab fa-google-plus-g"></i>
-          </a>
-        </li>
-      </ul>
+    <div class="col-sm">
+      <div class="col-lg-18 text-center">
+        <p class="text-white-50 text-muted mb-5"><br>CIAT is a CGIAR Research Center <br> Km 17 Recta Cali-Palmira CP 763537 <br>
+      Apartado Aéreo 6713, Cali, Colombia</p>
+      </div>
     </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; Your Website 2019. All Rights Reserved.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="#">Privacy</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">Terms</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">FAQ</a>
-        </li>
-      </ul>
+    <div class="col-sm">
+      <div class="container">
+          <img src="img/cgiar-logo200-white.png" height="129" alt="CGIAR">
+      </div>
     </div>
-  </footer>
+  </div>
+</div>
+
+
+
+  <div class="container bg-primary2">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="mt-0">Let's Get In Touch!</h2>
+        <hr class="divider my-4">
+        <p class="text-white-50 text-muted mb-5">Do you want to know more about the Metrix? <br>Send us an email and we will get back to you as soon as possible!</p>
+
+        <span style="font-size: 48px">
+        <a href="mailto:a.eitzinger@cgiar.org">
+        <envelope class="fas fa-envelope"></envelope></a>
+      </span>
+        </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="page-section"  id="partners">
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="container">
+          <img src="img/Alliance_logo_wide.png" alt="CIAT"></a>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="container">
+          <img src="img/Zgis_logo_wide.png" alt="Z_GIS"></a>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="container">
+          <img src="img/Metajua_logo_wide.png" alt="Metajua">
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-light py-5 bg-dark">
+  <div class="container">
+    <div class="small text-center text-muted">Copyright &copy; 2020 International Center for Tropical Agriculture - CIAT</div>
+  </div>
+</footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

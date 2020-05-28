@@ -156,8 +156,8 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), #6C3483;
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #6C3483, #2980B9   );
 }
 
 header.masthead .header-content {
@@ -395,8 +395,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #6C3483;
+  background: linear-gradient(#6C3483, #6C3483);
+}
+
+.bg-primary2 {
+  background: #2980B9;
+  background: linear-gradient(#2980B9, #2980B9);
 }
 
 .text-primary {
